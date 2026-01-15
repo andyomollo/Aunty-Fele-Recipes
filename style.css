@@ -70,8 +70,25 @@
     }
     .left-section{
         width:1400px;
+        align-items:center;
     }
     .middle-section{
         flex:1;
         max-width:250px;
     }
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #111;
+  color: white;
+}
