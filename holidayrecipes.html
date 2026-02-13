@@ -7,35 +7,39 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Felipa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Felipa&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="cdnjs.cloudflare.com">
-
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <div class="header">
         <nav class="nav-menu">
-                <a href="Letter.html">Letter</a>
-                <a href="breakfast.html">Breakfast</a>
-                <a href="lunch.html">Lunch</a>
-                <a href="dinner.html">Dinner</a>
-            </nav>     
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+            <a href="Letter.html">Letter</a>
+            <a href="breakfast.html">Breakfast</a>
+            <a href="lunch.html">Lunch</a>
+            <a href="dinner.html">Dinner</a>
+        </nav>     
     </div>
 
-    <div>
-            <input class="search" type="text" placeholder="Search Recipe...">
-            <button type="submit" class="btn-search">Search</button>
+    <div class="search-bar">
+        <input class="search" type="text" placeholder="Search Recipe...">
+        <button type="submit" class="btn-search">Search</button>
     </div>
 
     <div class="container">
-        <div> 
-            <img class="thumbnail" src="imagecopy.png">
+        <div class="hero-image"> 
+            <img class="thumbnail" src="imagecopy.png" alt="Welcome Image">
         </div>
-        <div>
+        <div class="welcome-text">
             <p class="Text"> 
-            <strong>Hey there Kids &#183 Welcome to my website. Super glad you could make it!<strong>
+                <strong>Hey there Kids &middot; Welcome to my website. Super glad you could make it!</strong>
             </p>
         </div>
     </div>
